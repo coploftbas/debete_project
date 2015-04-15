@@ -7,8 +7,25 @@ class PerceptronsController < ApplicationController
 
     @input = Array.new(3)
     @expert_weight = Array.new(3)
+    @sum = 0.0
+    @output = 0
+
+    # Decide later what should be inputs
     @input = [params[:age], params[:height], params[:weight]]
+
+    # According to the example : expert_weight should be between -1 and 1
     @expert_weight = [0.1, 0.2, 0.3]
+
+
+    for i in @input.length
+      @sum += @input.at(i)*@expert_weight.at(i)
+    end
+
+    if @sum > 0
+      @output = 1
+    else
+      @output = -1
+    end
 
   end
 
