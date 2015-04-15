@@ -5,23 +5,21 @@ class PerceptronsController < ApplicationController
 ## Implementing ANN using Perceptron model for calculating risks of having Diabete-------------------##
   def risk_of_diabete
 
-    @input = Array.new(3)
-    @expert_weight = Array.new(3)
-    @sum = 0.0
+    sum = 0.0
     @output = 0
 
     # Decide later what should be inputs
-    @input = [params[:age], params[:height], params[:weight]]
+    input = [params[:age], params[:height], params[:weight]]
 
     # According to the example : expert_weight should be between -1 and 1
-    @expert_weight = [0.1, 0.2, 0.3]
+    expert_weight = [0.1, 0.2, 0.3]
 
 
-    for i in 0..(@input.length-1)
-      @sum += @input.at(i).to_f*@expert_weight.at(i).to_f
+    for i in 0..(input.length-1)
+      sum += input.at(i).to_f*expert_weight.at(i).to_f
     end
 
-    @output = activate(@sum)
+    @output = activate(sum)
 
   end
 
