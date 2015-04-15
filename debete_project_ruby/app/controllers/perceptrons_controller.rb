@@ -2,7 +2,7 @@ class PerceptronsController < ApplicationController
   before_action :set_perceptron, only: [:show, :edit, :update, :destroy]
 
   
-## Implementing ANN using Perceptron model for calculating risks of having Diabete
+## Implementing ANN using Perceptron model for calculating risks of having Diabete-------------------##
   def risk_of_diabete
 
     @input = Array.new(3)
@@ -38,7 +38,7 @@ class PerceptronsController < ApplicationController
 
 
 
-
+##--------------------------------------------------------------------------------------------------##
 
 
 ## Below: From scaffolding, do not care

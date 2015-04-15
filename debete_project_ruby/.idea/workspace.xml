@@ -36,20 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perceptrons_controller.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="perceptrons_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/perceptrons_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1830">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.07989348" vertical-offset="0" max-vertical-offset="1830">
+              <caret line="4" column="103" selection-start-line="4" selection-start-column="103" selection-end-line="4" selection-end-column="103" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="risk_of_diabete.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="risk_of_diabete.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/perceptrons/risk_of_diabete.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45392022" vertical-offset="0" max-vertical-offset="727">
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="420">
               <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
@@ -67,8 +67,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/perceptrons/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/perceptrons_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/perceptrons/risk_of_diabete.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/perceptrons_controller.rb" />
       </list>
     </option>
   </component>
@@ -675,18 +675,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/perceptrons_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/perceptrons/risk_of_diabete.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1830">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="420">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/perceptrons/risk_of_diabete.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/perceptrons_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45392022" vertical-offset="0" max-vertical-offset="727">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.07989348" vertical-offset="0" max-vertical-offset="1830">
+          <caret line="4" column="103" selection-start-line="4" selection-start-column="103" selection-end-line="4" selection-end-column="103" />
           <folding />
         </state>
       </provider>
