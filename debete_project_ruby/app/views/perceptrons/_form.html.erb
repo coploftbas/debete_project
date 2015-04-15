@@ -1,0 +1,17 @@
+<%= form_for(@perceptron) do |f| %>
+  <% if @perceptron.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@perceptron.errors.count, "error") %> prohibited this perceptron from being saved:</h2>
+
+      <ul>
+      <% @perceptron.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

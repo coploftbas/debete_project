@@ -1,0 +1,20 @@
+<h1>Enter information</h1>
+
+<%=  form_tag({controller: "perceptrons", action: "risk_of_diabete"}, method: "get") do %>
+    <%= label_tag(:age, "Age: ") %>
+    <%= text_field_tag(:age) %>
+
+    <%= label_tag(:height, "Height: ") %>
+    <%= text_field_tag(:height) %>
+
+    <%= label_tag(:weight, "Weight: ") %>
+    <%= text_field_tag(:weight) %>
+    <div class="">
+        <%= submit_tag("Submit") %>
+    </div>
+<% end %>
+
+
+<%= @input.at(0) %>
+<%= @input.at(1) %>
+<%= @input.at(2) %>
