@@ -17,16 +17,22 @@ class PerceptronsController < ApplicationController
     @expert_weight = [0.1, 0.2, 0.3]
 
 
-    for i in @input.length
-      @sum += @input.at(i)*@expert_weight.at(i)
+    for i in 0..(@input.length-1)
+      @sum += @input.at(i).to_f*@expert_weight.at(i).to_f
     end
 
-    if @sum > 0
-      @output = 1
+    @output = activate(@sum)
+
+  end
+
+  def activate(sum)
+    if sum > 0
+      activated_output = 1
     else
-      @output = -1
+      activated_output = -1
     end
 
+    return activated_output
   end
 
 
