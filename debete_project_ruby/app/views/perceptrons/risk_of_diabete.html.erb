@@ -1,18 +1,53 @@
-<h1>Enter information</h1>
+<div class="container">
+  <div class="page-header">
+    <h1>Enter data</h1>
+  </div>
+  <br/>
 
-<%=  form_tag({controller: "perceptrons", action: "risk_of_diabete"}, method: "get") do %>
-    <%= label_tag(:age, "Age: ") %>
-    <%= text_field_tag(:age) %>
+  <div class="row>"
+    <%=  form_tag({controller: "perceptrons", action: "risk_of_diabete"}, method: "get") do %>
+      <div class="col-md-2">
+        <%= label_tag(:age, "Age: ") %>
+      </div>
+      <div class="col-md-10">
+        <%= text_field_tag(:age) %>
+      </div>
+      <br/>
 
-    <%= label_tag(:height, "Height: ") %>
-    <%= text_field_tag(:height) %>
+      <div class="col-md-2">
+        <%= label_tag(:height, "Height: ") %>
+      </div>
+      <div class="col-md-10">
+        <%= text_field_tag(:height) %>
+      </div>
+      <br/>
 
-    <%= label_tag(:weight, "Weight: ") %>
-    <%= text_field_tag(:weight) %>
-    <div class="">
+      <div class="col-md-2">
+        <%= label_tag(:weight, "Weight: ") %>
+      </div>
+      <div class="col-md-10">
+        <%= text_field_tag(:weight) %>
+      </div>
+      <br/>
+
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-10">
         <%= submit_tag("Submit") %>
+      </div>
+      <br/>
+    <% end %>
+  </div>
+<br/>
+
+    <div class="row">
+      <div class="col-md-2">
+        Activated Output:
+      </div>
+      <div class="col-md-10">
+        &nbsp<%= @output %>
+      </div>
     </div>
-<% end %>
+<br/>
 
-
-Activated Output = <%= @output %>
+</div>
