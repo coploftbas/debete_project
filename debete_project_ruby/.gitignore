@@ -16,5 +16,5 @@
 !/log/.keep
 /tmp
 
-#ignore Mac files
-/.MD
+#misc
+.DS_Store
